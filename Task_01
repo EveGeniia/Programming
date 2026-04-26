@@ -1,11 +1,8 @@
-UserName = input("What is your First and Second name? ") # ask user to input their  first name and second name
-UserAge = input("How old are you? ") # ask user to input their age
-QuestionNumber = input("What is your favorite number? ") # ask user to input their favorite number
-print (f"My name is {UserName}. I am {UserAge} years old. My favorite number is {QuestionNumber}.") 
-# print the user input in a sentence
-UserName = str # assign UserName type string it means you can use letters, strokes and numbers
-UserAge = int #assign UserAge type integer, it means use only numbers
-QuestionNumber = int #assign QuestionNumber type integer, it means use only numbers
-print(f" Type of var UserName is {type(UserName)}", 
-      "\n", f"Type of var UserAge is {type(UserAge)}", 
-      "\n", f"Type of var QuestionNumber is {type(QuestionNumber)}") # output types of variables
+UserName = str(input("What is your First and Second name? ")) # ask user to input their  first name and second name
+UserAge = int(input("How old are you? ")) # ask user to input their age
+QuestionNumber = int(input("What is your favorite number? "))
+AddressStroke = r'g:\Learning\Programming\ ' # set up RAW stroke withthe project adddress
+print(f"My name is {UserName}. I am {UserAge} years old. My favorite number is {QuestionNumber}." 
+      "\n", f"Type of var UserAge is {type (UserAge)}", 
+      "\n", f"Type of var QuestionNumber is {type (QuestionNumber)}", 
+      "\n", AddressStroke) # output all information asked  before in variables, show type of variables and show teh path of the project
